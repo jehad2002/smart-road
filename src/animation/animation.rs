@@ -84,7 +84,7 @@ pub fn run() -> Result<(), String> {
         .expect("Errrr image");
 
     let window = match video_subsystem
-        .window("projet rust Zone-01", 1000, 800)
+        .window("smart-road z01", 1000, 800)
         .position_centered()
         .build()
     {
