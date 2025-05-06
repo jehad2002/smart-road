@@ -1,0 +1,14 @@
+/Users/adam-06-05/Desktop/smart-road/target/debug/deps/libsdl2_sys-e5ace724c24890ae.rmeta: /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/lib.rs /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/image.rs /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/ttf.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_bindings.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_image_bindings.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_ttf_bindings.rs
+
+/Users/adam-06-05/Desktop/smart-road/target/debug/deps/libsdl2_sys-e5ace724c24890ae.rlib: /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/lib.rs /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/image.rs /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/ttf.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_bindings.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_image_bindings.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_ttf_bindings.rs
+
+/Users/adam-06-05/Desktop/smart-road/target/debug/deps/sdl2_sys-e5ace724c24890ae.d: /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/lib.rs /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/image.rs /Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/ttf.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_bindings.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_image_bindings.rs /Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_ttf_bindings.rs
+
+/Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/lib.rs:
+/Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/image.rs:
+/Users/adam-06-05/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sdl2-sys-0.34.5/src/ttf.rs:
+/Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_bindings.rs:
+/Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_image_bindings.rs:
+/Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out/sdl_ttf_bindings.rs:
+
+# env-dep:OUT_DIR=/Users/adam-06-05/Desktop/smart-road/target/debug/build/sdl2-sys-8998d7e6a801d4d0/out

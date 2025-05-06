@@ -3,6 +3,7 @@ pub struct Point {
     pub x: i32,
     pub y: i32,
 }
+// point for cars x, y
 
 #[derive(Debug, PartialEq, Eq, Clone)]
 pub enum Direction {
@@ -12,12 +13,16 @@ pub enum Direction {
     East,
 }
 
+//direction for where the ca went
+
 #[derive(Debug, PartialEq, Eq, Clone)]
 pub enum Destination {
     Left,
     Right,
     Straight,
 }
+
+// to where the car will go right, left, straight
 
 #[derive(Debug, Clone)]
 pub struct Car {
@@ -38,8 +43,10 @@ pub struct Car {
     pub velocity_in: f32,
 }
 
+//struct to have details the car like the time when come in, or out 
+
 impl Car {
-    pub fn new(
+    pub fn new( // add new car
         c: Point,
         d: Direction,
         dest: Destination,
@@ -73,12 +80,15 @@ impl Car {
             self.velocity += 0.5;
         }
     }
+    // up the speed 
+    // max speed will be 5.0
 
     pub fn decelerate(&mut self) {
         if self.velocity > 0.0 {
             self.velocity -= 0.5;
         }
     }
+    // less the sppeed 0.0 
 
     pub fn move_car(&mut self) -> Point {
         match self.direction {
@@ -176,12 +186,14 @@ impl Car {
         self.coordinate.clone()
     }
 
-    pub fn get_car_collision<'a>(&self, cars: Vec<Car>) -> Vec<Car> {
+    pub fn get_car_collision<'a>(&self, cars: Vec<Car>) -> Vec<Car> { // this will check if the car will crash 
         let mut cars_collision = Vec::new();
         for car in cars {
             if !car.out_intersection {
-                match (self.direction.clone(), self.destination.clone()) {
+                match (self.direction.clone(), self.destination.clone()) { // يتم استخدام .clone() لتكرار القيم لأننا نحتاج نسخًا مستقلة من هذه المتغيرات.
+
                     (Direction::East, Destination::Straight) => {
+                                // شروط التصادم مع السيارات الأخرى
                         if (car.direction == Direction::South
                             && car.destination == Destination::Straight
                             && car.coordinate.x > 360)
@@ -192,7 +204,6 @@ impl Car {
                                 && !car.have_turn)
                             || (car.direction == Direction::West
                                 && car.destination == Destination::Left)
-                        //    Pourront ignorer ce test
                         //    (car.direction == Direction::West && car.destination == Destination::Straight && car.have_turn)
                         {
                             cars_collision.push(car);
@@ -211,7 +222,6 @@ impl Car {
                             || (car.direction == Direction::West
                                 && car.destination == Destination::Straight
                                 && car.coordinate.y > 278)
-                        //    Pourront ignorer ce test
                         //    (car.direction == Direction::East && car.destination == Destination::Straight && car.have_turn)
                         {
                             cars_collision.push(car);
@@ -228,7 +238,6 @@ impl Car {
                             || (car.direction == Direction::West
                                 && car.destination == Destination::Straight
                                 && car.coordinate.y > 270)
-                        //    Pourront ignorer ce test
                         //    (car.direction == Direction::North && car.destination == Destination::Straight && car.have_turn)
                         {
                             cars_collision.push(car);
@@ -247,7 +256,6 @@ impl Car {
                                 && car.coordinate.y > 290)
                             || (car.direction == Direction::West
                                 && car.destination == Destination::Left)
-                        //    Pourront ignorer ce test
                         //    (car.direction == Direction::South && car.destination == Destination::Straight && car.coordinate.x >= 440)
                         {
                             cars_collision.push(car);

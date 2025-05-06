@@ -1,0 +1,1 @@
+/Users/adam-06-05/Desktop/smart-road/target/debug/libsmartroad.rlib: /Users/adam-06-05/Desktop/smart-road/src/lib.rs /Users/adam-06-05/Desktop/smart-road/src/vehicle/mod.rs /Users/adam-06-05/Desktop/smart-road/src/vehicle/vehicle.rs
