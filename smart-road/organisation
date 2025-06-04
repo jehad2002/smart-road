@@ -1,0 +1,34 @@
+intersection-management-project/
+│
+├── src/
+│   ├── main.rs                   
+│   │
+│   ├── lib.rs                    
+│   ├── physics/               
+│   │   ├── mod.rs            
+│   │   └── physics.rs            
+│   │
+│   ├── intersection/            
+│   │   ├── mod.rs             
+│   │   └── intersection.rs       
+│   │
+│   ├── animation/                
+│   │   ├── mod.rs               
+│   │   ├── animation.rs          
+│   │   └── rendering.rs          
+│   │
+│   ├── statistics/               
+│   │   ├── mod.rs               
+│   │   └── statistics.rs         
+│   │
+│   └── commands/                 
+│       ├── mod.rs                
+│       └── commands.rs           
+│
+├── assets/                       
+│   ├── vehicles/                 
+│   └── roads/                    
+│
+├── Cargo.toml                    
+└── README.md                     
+    
